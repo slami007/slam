@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js - Перезентация на тему: кодирование и обработка числовой информации</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+		   
+			<div class="slides">
+				<section>
+				   <h1>Кодирвание и обработка числвой информации</h1>
+				   <p>
+				   <small>Создал <a href="https://vk.com/yurko_aniki">Yuriy Danilov</a>
+				   </p>
+				</section>
+			</div>
+		    <div class="slides">
+				<section>
+				   <section>
+				      <h1>Система счисления-</h1>
+				      <h2>Знаковая система, в которой числа записаны по определенным правилам.</h2>
+				      <h2>Система бывает 2 видов:непозиционная и позиционная</h2>
+				    </section>
+			        <section>
+			           <h1>Непозиционная система счисления</h1>
+			           <h2>Числа, эквивалентные каждой цифре, не зависят от ее положения (места, позиции) в записях числа.</h2>
+					</section>   
+                    <section>
+				       <h1>К непозиционным системам счисления относятся</h1>
+				       <h3>1. Егоипетская система счисления</h3>
+				       <h3>2. Римская</h3>
+				       <h3>3. Древнегреческая</h3>
+				       <h3>4. Славянская</h3>
+				    </section>
+				</section>	
+			</div>
+			<div class="slides">
+			   <section>
+			      <h3>Позиционные системы счисления</h3>
+				  <img width="678" height="487" data-src="https://cf.ppt-online.org/files/slide/9/9t3TwoIErJa1lzsbXeRYWVDvcyB7QNkSKOn5M4/slide-4.jpg" style="max-width: 1024px; max-height: 767px;">
+				  </section>
+			</div>	  
+			<div class="slides">
+			   <section>
+			      <h1>Позиционная система счисления</h1>
+				  <h2>555 - свернутая форма</h2>
+                  <h2>55510 = 5 · 102 + 5 · 101 + 5 · 100 - развернутая форма</h2>
+				  <h2>1011012, 36718, 3В8F16 </h2>
+				</section>
+            </div>
+            <div class="slides">
+               <section>
+                  <h2>Развернутой формой записи числа называется запись в виде</h2>
+				  <h3>Aq=±(an-1qn-1+an-2qn-2+…+a0q0+a-1q-1+a-2q-2+…+a-mq-m)</h3>
+				  <h3>Здесь Aq - само число,</h3>
+				  <h3>q - основание системы счисления,</h3>
+				  <h3>аi - цифры данной системы счисления,</h3>
+				  <h3>n - число разрядов целой части числа,</h3>
+				  <h3>м - число разрядов дробной части числа.</h3>
+				</section>
+			</div>
+			<div class="slides">
+			    <section>
+				   <h2>Пример:</h2>
+				   <h3>32478; 26387</h3>
+				   <h3>3247810 = 3 · 10000 + 2 · 1000 + 4 · 100 + </h3>
+				   <h3>7 · 10 + 8 = 3 · 104 + 2 · 103 + 4 · 102 + 7 · </h3>
+				   <h3>101 + 8 · 100</h3>
+				   <h3></h3>
+				   <h3>26 38710 = 2 · 101 + 6 · 100 + 3 · 10-1 + 8 </h3>
+				   <h3>· 10-2 + ​​7 · 10-3</h3>
+				</section>
+			</div>
+            <div class="slides">
+ 			   <section>
+			      <h2>Дискретные записи числа в двоичной,</h2> 
+				  <h2>троичной, шестнадцатеричной системах счисления:1011012; 1123; 15FС16.</h2>
+				  <h3>1011012 = 1 · 25 + 0 · 24 + 1 · 23 + 1 · 22 + 0 · 21 + 1 · 20</h3>
+				  <h3>1123 = 1 · 32 + 1 · 31 + 1 · 30</h3>
+				  <h3>15FС16 = 1 · 163 + 5 · 162 + 15 · 161 · 12 + 160</h3>
+				</section>
+			</div>
+			<div class="slides">
+			   <section>
+			      <h2>Пример:</h2>
+				   <h3>Перевести число из десятичной в двоичную систему.</h3>
+				   <img width="678" height="487" data-src="http://sysadm.pp.ua/wp-content/uploads/2014/10/10-2_2.png" style="max-width: 926px; max-height: 394px;">
+			   </section>
+			</div>	
+			<div class="slides">
+			   <section>
+			      <h1>Thanks for attention!!!</h1>
+				  <img width="578" height="487" data-src="https://i.sunhome.ru/tests/66/ty_dzhentlmen.xxl.jpg" style="max-width: 928px; max-height: 599px;">
+			   </section>
+			   
+                  				  
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
